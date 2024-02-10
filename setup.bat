@@ -1,2 +1,1 @@
-pip install requests
-pip install pystyle
+pip install -r requirements.txt
