@@ -1,0 +1,6 @@
+discord
+datetime
+pystyle
+asyncio
+future
+pycryptodome
