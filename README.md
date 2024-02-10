@@ -25,8 +25,7 @@
 
 1. Install [Python](https://www.python.org/downloads/) and add to PATH.
 2. Install the requirements → launch `setup.bat`.
-3. Put the tokens in `tokens.txt`.
-4. Launch bot.py → `start.bat`.
+3. Launch bot.py → `start.bat`.
 
 # <a id="config"></a>⚙ » Config
 
