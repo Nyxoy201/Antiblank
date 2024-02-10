@@ -1,4 +1,4 @@
 @echo off
-title Webhook Tool By nyxoy.xyz
+title AntiBlank
 
-python main.py
+python bot.py
