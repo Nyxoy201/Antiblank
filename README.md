@@ -12,25 +12,38 @@
 
 
 ## <a id="features"></a>🛠 » Features
-- Bot Token Checker
-- Get Bot Invite
+
+- help → `Show bot's commands`
+- getkey → `Find out how to get a key`
+- info → `Some informations about the bot`
+- extract <your_key> → `Extract the webhook from a blank .exe file`
+- genkey <user_id> → `Create a key for an user`
+- revok <user_id> → `Revok a key for an user`
+- bl/unbl <user_id> → `Blacklist id from bot`
 
 ## <a id="setup"></a> 📁 » Setting up
 
 1. Install [Python](https://www.python.org/downloads/) and add to PATH.
 2. Install the requirements → launch `setup.bat`.
 3. Put the tokens in `tokens.txt`.
-4. Launch checker.py / invite.py.
+4. Launch bot.py → `start.bat`.
 
 # <a id="config"></a>⚙ » Config
 
-If you want to change the tokens files change the file name l.39 :
+Change some things :
 
 ```py
-tokens_file = "tokens.txt" # Your tokens file
+config = {
+   'token': "",  # Bot Token
+   'authid': ['',],  # Owner(s) ID(s)
+   'name': "AntiBlank",  
+   'embedcolor': "2F2963", 
+   'prefix': "!",
+   'footer': "Antiblank | Be safe"
+ }
 ```
 ---
-*The script was made by Nyxoy*
+*The script was made by Nyxoy & Clyde*
 ---
 
 Thanks to Nekros for this nice readme template that saved me time. <3
