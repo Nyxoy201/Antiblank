@@ -45,4 +45,5 @@ config = {
 *The script was made by Nyxoy & Clyde*
 ---
 
+Thanks to lululepu.off who created the ungrabber. <3
 Thanks to Nekros for this nice readme template that saved me time. <3
